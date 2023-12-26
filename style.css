@@ -1,0 +1,69 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+.body{
+ width:70%;
+  height:40rem;
+  background-color: #9ed26a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+font-size: 2rem;
+color:#57abff;}
+.box{
+  height: 30rem;
+  
+  background-color: #c5df7c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#board{
+  height: 20rem;
+  width:30rem;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows:repeat(18, 1fr);
+  grid-gap: .2rem;
+  background-color: #61dd2c;
+  border: solid black;
+}
+
+  
+
+
+.head{
+  background-color: red;
+  border-radius: 100%;
+
+}
+.food{
+
+  background-color: black;
+ 
+}
+.snake{
+  background-color: #4c3cc3;
+  border: solid maroon;
+  border-radius: 100%;
+  
+}
